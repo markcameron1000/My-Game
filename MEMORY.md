@@ -41,7 +41,7 @@ An interactive website game, **Parallel Futures**, where players make everyday d
   - **Publishing is done by Mark in GitHub Desktop** (Publish repository), so Claude never handles GitHub credentials. Note: GitHub Pages on a free account needs a **public** repository.
   - Mark published it as **[markcameron1000/My-Game](https://github.com/markcameron1000/My-Game)**. It was private at first, then Mark made it **public** and switched on **GitHub Pages** (deploy from branch `main`, root folder).
   - **Live game: https://markcameron1000.github.io/My-Game/**. Every push to `main` redeploys it automatically.
-  - Claude can push from this machine with the bundled git, because GitHub Desktop's stored credentials are used.
+  - **Claude can commit but can't push.** The bundled git has no access to GitHub Desktop's stored login ("could not read Username"). Workflow: Claude commits locally, then **Mark clicks "Push origin" in GitHub Desktop**.
 - Next step: After that: audio (S1), downloading the Future Card as an image (S2), illustrations, and playtesting with 5–10 people.
 
 ## Key decisions (from the PRD)
