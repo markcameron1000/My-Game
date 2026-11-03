@@ -34,6 +34,11 @@ An interactive website game, **Parallel Futures**, where players make everyday d
   - **Tap to skip:** while text is fading in, buttons are locked, so an invisible choice can't be clicked by accident. A tap or key press finishes the reveal instead.
   - Also added a favicon (a split timeline) and share-link metadata.
   - Tested in the browser: audio starts on Begin, and tap-to-skip doesn't trigger a choice. A full run along the Rosa route showed the Lisbon echo ("Rosa was right about the light here."), the Rocket opening and Rosa's grandson in Ch 4. The card PNG renders correctly, Save downloads `parallel-futures-the-builder.png`, the toggle remembers its setting, sound defaults to off on a phone, and there are no console errors. Mark listened with sound on: **"Sounds great."** Audio volume and mood are approved as they are.
+- **Set up version control for GitHub hosting:**
+  - This PC has no standalone `git` or `gh`, but **GitHub Desktop is installed**. Its bundled git is at `%LOCALAPPDATA%\GitHubDesktop\app-3.6.10\resources\app\git\cmd\git.exe`, and the git identity is `markcameron1000`. Use that path for git commands (the version folder may change when GitHub Desktop updates).
+  - Added `README.md` (how to play, features, structure, how to turn on GitHub Pages) and `.gitignore`.
+  - Created a local repo on branch `main` with the first commit.
+  - **Publishing is done by Mark in GitHub Desktop** (Publish repository), so Claude never handles GitHub credentials. Note: GitHub Pages on a free account needs a **public** repository.
 - Next step: After that: audio (S1), downloading the Future Card as an image (S2), illustrations, and playtesting with 5–10 people.
 
 ## Key decisions (from the PRD)
