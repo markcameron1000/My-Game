@@ -6,8 +6,10 @@ Parallel Futures is a short interactive story for the browser. You make 12 every
 
 ## Play
 
+▶ **[Play Parallel Futures](https://markcameron1000.github.io/My-Game/)**
+
 - **Locally:** download or clone this repository and open `index.html` in any modern browser. There's nothing to install or build.
-- **Online:** turn on GitHub Pages for this repository (Settings → Pages → Deploy from branch → `main` / root). The game will then be live at `https://<username>.github.io/<repository>/`.
+- **Hosting:** the game is served by GitHub Pages from the `main` branch, root folder. Every push to `main` updates the live site within a minute or two.
 
 ## Features
 
